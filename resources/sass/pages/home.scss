@@ -1,0 +1,28 @@
+.home-header{
+    background-image: url("/images/home-back.jpg") ;
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+    &_message{
+        position: absolute;
+        left:0;
+        top: 0;
+        height: 100%;
+        width: 40%;
+        padding: 10px 20px;
+        background-color: rgba(0,0,0,.70);
+        color: #fff;
+
+    }
+
+}
+.features-section{
+    margin-top: 30px;
+    #home-app{
+
+    }
+}
+
