@@ -1,0 +1,13 @@
+.footer{
+    min-height:400px;
+    background-color:#383838;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    div{
+        background-color:white;
+        width:30%;
+        height:100px;
+    }
+}
+

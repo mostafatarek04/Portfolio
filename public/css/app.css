@@ -11296,9 +11296,22 @@ body {
   margin: 15px !important;
 }
 
+.footer {
+  min-height: 400px;
+  background-color: #383838;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer div {
+  background-color: white;
+  width: 30%;
+  height: 100px;
+}
+
 .home-header {
   background-image: url("/images/home-back.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   height: 100vh;
   width: 100%;

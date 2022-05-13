@@ -17,21 +17,7 @@
 
     </head>
     <body class="antialiased">
-             <header>
-                 <div class="home-header">
-                     <div class="home-header_message">
-                         <h2>App & Full Stack Web Developer</h2>
-                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus qui reprehenderit suscipit!</p>
-
-                     </div>
-                 </div>
-             </header>
-
-            <main>
-                <section class="features-section">
-                    <div id="home-app"></div>
-                </section>
-            </main>
+      <div id="home-app"></div>
 
              <script src="{{asset('js/app.js')}}"></script>
        </body>
