@@ -1,6 +1,7 @@
 <template>
 
     <router-view></router-view>
+    <my-footer></my-footer>
     <custom-dialouge :open="showDialoge" @click="closeDialoge"></custom-dialouge>
 
 
@@ -15,11 +16,14 @@ import TabContainer from "./components/TabContainer"
 import ContactForm from "./components/ContactForm";
 import FeatureContent from "./components/FeatureContent";
 import CustomDialouge from "./components/CustomDialouge";
+import myFooter from "./components/MyFooter";
 
 import homePage from "./Pages/HomePage";
+import FooterElement from "./components/FooterElement";
+import MyFooter from "./components/MyFooter";
 
 export default {
-    components: {TabButton,TabContainer,ContactForm,FeatureContent,CustomDialouge},
+    components: {MyFooter, FooterElement, TabButton,TabContainer,ContactForm,FeatureContent,CustomDialouge},
     data (){
          return{
              appShow:false,
